@@ -1,0 +1,41 @@
+# Node.js
+dist/
+node_modules/
+package-lock.json
+.next/
+out/
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Outros
+*.sqlite3
+*.xls*
+*.csv
+*.zip
+*.tar
+*.gz
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
