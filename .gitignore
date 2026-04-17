@@ -1,3 +1,40 @@
+# Ignora node_modules em qualquer subpasta
+**/node_modules/
+
+# Ignora ambientes virtuais Python em qualquer subpasta
+**/.venv/
+**/env/
+**/venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Outros
+*.sqlite3
+*.xls*
+*.csv
+*.zip
+*.tar
+*.gz
+*.bak
+*.swp
+*.swo
+*.tmp
+*.orig
 # Node.js
 dist/
 node_modules/
