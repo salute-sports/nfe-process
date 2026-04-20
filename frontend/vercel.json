@@ -1,0 +1,8 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "api/extract_xml.py": {
+      "runtime": "@vercel/python@4.5.0"
+    }
+  }
+}
