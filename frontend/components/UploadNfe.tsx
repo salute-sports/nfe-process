@@ -1,7 +1,7 @@
 
 "use client";
 import { useState, useRef } from "react";
-import axios from "axios";
+import api from '../services/api';
 import { CloudArrowUpIcon } from '@heroicons/react/24/outline';
 
 export default function UploadNfe() {
@@ -49,8 +49,8 @@ export default function UploadNfe() {
     const formData = new FormData();
     formData.append("file", files[0]);
     try {
-      const res = await axios.post(
-        process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/extract",
+      const res = await api.post(
+        '/extract_xml',
         formData,
         {
           headers: { "Content-Type": "multipart/form-data" },
