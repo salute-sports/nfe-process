@@ -141,7 +141,7 @@ export default function UploadNfe() {
             <li>✓ Envie um ou mais arquivos XML de NF-e</li>
             <li>✓ Os dados serão processados e consolidados</li>
             <li>✓ Uma planilha Excel será gerada com EAN consolidado e coluna SKU em branco</li>
-            <li>✓ O arquivo será automaticamente baixado ao final</li>
+            <li>✓ O arquivo será automaticamente baixado ao final!</li>
           </ul>
         </div>
 
